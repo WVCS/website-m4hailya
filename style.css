@@ -1,3 +1,25 @@
-body {
-
+h1 { 
+color:#A68BA5;
+font-size:70px;
+text-align: center;
+font-family:monospace;
+  text-decoration-line: underline;
+  text-decoration-color: #5C5D67;
 }
+
+body{
+  background-color: #EDADC7;
+}
+  
+  img{
+  width:50%;
+  border: dotted pink 5px;
+  border-radius:20%;  
+  }
+  
+  img:hover{
+  width:60%;
+  border: dotted black 7px;
+  }
+}
+
