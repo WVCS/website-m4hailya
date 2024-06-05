@@ -1,3 +1,6 @@
+<head> 
+<link rel="stylesheet" href="style.css">
+
 h1 { 
 color:#A68BA5;
 font-size:70px;
@@ -22,4 +25,53 @@ body{
   border: dotted black 7px;
   }
 }
+nav{
+font-size: 100;
+  background-color:#EDADC7;
+}
 
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul {
+  border: 1px solid #e7e7e7;
+}
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #5C5D67;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #A68BA5;
+}
+.active {
+  background-color: #04AA6D;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+</head>
