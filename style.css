@@ -74,5 +74,6 @@ li {
 
 li:last-child {
   border-right: none;
+  <br>
 }
 </head>
